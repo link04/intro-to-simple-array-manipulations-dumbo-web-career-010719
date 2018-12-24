@@ -26,7 +26,7 @@ def using_unshift(array, string)
   array.unshift(string)
 end
 
-def shift_with_args(array, string)
+def using_concat(array, string)
   array.unshift(string)
 end
 
