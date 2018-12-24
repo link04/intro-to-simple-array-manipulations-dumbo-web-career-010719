@@ -35,7 +35,7 @@ def using_insert(array, element)
 end
 
 def using_uniq(array)
-  array.uniq(string)
+  array.uniq!
 end
 
 def using_unshift(array, string)
