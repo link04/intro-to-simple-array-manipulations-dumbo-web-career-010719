@@ -38,7 +38,7 @@ def using_uniq(array)
   array.uniq!
 end
 
-def using_flatten(array, string)
+def using_flatten(array)
   array.unshift(string)
 end
 
