@@ -43,7 +43,7 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  array.unshift(string)
+  array.delete(string)
 end
 
 def using_unshift(array, string)
