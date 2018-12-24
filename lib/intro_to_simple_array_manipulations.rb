@@ -26,8 +26,8 @@ def using_unshift(array, string)
   array.unshift(string)
 end
 
-def using_concat(array, string)
-  array.unshift(string)
+def using_concat(array1, array2)
+  array1.concat(array2)
 end
 
 def using_unshift(array, string)
